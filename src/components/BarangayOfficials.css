@@ -1,0 +1,72 @@
+/* components/BarangayOfficials.css */
+.barangay-officials {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(189, 172, 172, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .barangay-officials h2 {
+    text-align: center;
+    color: #d22424;
+    margin-bottom: 20px;
+  }
+  
+  .officials-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .official-card {
+    background: #f9f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .official-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .official-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #fcc4b3;
+    color: white;
+  }
+  
+  .official-icon .icon {
+    font-size: 50px; /* Adjust icon size */
+  }
+  
+  .official-icon .male {
+    color: #3498db; /* Blue for male */
+  }
+  
+  .official-icon .female {
+    color: #e91e63; /* Pink for female */
+  }
+  
+  .official-details {
+    padding: 15px;
+  }
+  
+  .official-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .official-details p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #424242;
+  }
